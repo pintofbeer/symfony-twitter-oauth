@@ -1,0 +1,29 @@
+{
+    "name": "pintofbeer/symfony-twitter-oauth",
+    "description": "A Symfony component to handle Twitter OAuth and user creation",
+    "keywords": ["template", "composer", "package"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Madelin",
+            "email": "pintofcider@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.1",
+		"abraham/twitteroauth": "^1.0",
+        "doctrine/orm": "^2.6",
+        "symfony/http-foundation": "^4.2",
+        "symfony/framework-bundle": "^4.2",
+        "symfony/routing": "^4.2"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pintofbeer\\SymfonyTwitterOAuthBundle\\": "src/"
+        }
+    }
+}
