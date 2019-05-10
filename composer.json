@@ -9,7 +9,7 @@
             "email": "pintofcider@gmail.com"
         }
     ],
-    "type": "library",
+    "type": "symfony-bundle",
     "require": {
 		"php": ">=7.1",
 		"abraham/twitteroauth": "^1.0",
